@@ -1,0 +1,51 @@
+======================================================================
+BATCH TESTING SUMMARY REPORT
+======================================================================
+
+Date: 2025-11-12 15:22:25
+Total tests run: 12
+Total time: 2.6 minutes
+Average time per test: 13.1 seconds
+
+======================================================================
+TESTS PERFORMED
+======================================================================
+
+1. Agent Comparisons (3 tests):
+   - Simple Maze (5x5): Q-Learning vs SARSA vs Expected SARSA
+   - Default Maze (7x7): Q-Learning vs SARSA vs Expected SARSA
+   - Complex Maze (10x10): Q-Learning vs SARSA vs Expected SARSA
+
+2. Individual Agent Analysis (9 tests):
+   Each agent tested on each maze with detailed visualizations:
+   - Q-Learning: Simple, Default, Complex
+   - SARSA: Simple, Default, Complex
+   - Expected SARSA: Simple, Default, Complex
+
+======================================================================
+GENERATED FILES
+======================================================================
+
+Comparison Plots:
+  - comparison_simple.png
+  - comparison_default.png
+  - comparison_complex.png
+
+Individual Agent Analysis (per agent per maze):
+  - {agent}_{maze}_learning_curves.png
+  - {agent}_{maze}_policy.png
+  - {agent}_{maze}_value_function.png
+
+======================================================================
+ANALYSIS RECOMMENDATIONS
+======================================================================
+
+1. Compare 'comparison_*.png' files to see relative agent performance
+2. Check learning curves to identify convergence patterns
+3. Examine policy visualizations to understand learned strategies
+4. Review value functions to see state value distributions
+5. Look for consistency across different maze complexities
+
+======================================================================
+END OF REPORT
+======================================================================
